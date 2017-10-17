@@ -1,0 +1,20 @@
+{
+  "name": "source-def",
+  "main": "./lib/source-def",
+  "version": "0.0.0",
+  "description": "Display keyword's reference.",
+  "keywords": ["Stackoverflow", "Code", "Reference"],
+  "activationCommands": {
+    "atom-workspace": "source-def:fetch"
+  },
+  "repository": "https://github.com/shivaacharjee/source-def",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "google": "^2.0.0",
+    "request": "^2.73.0"
+  }
+}
