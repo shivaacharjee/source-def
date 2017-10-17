@@ -1,9 +1,13 @@
 {
   "name": "source-def",
   "main": "./lib/source-def",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Display keyword's reference.",
-  "keywords": ["Stackoverflow", "Code", "Reference"],
+  "keywords": [
+    "Stackoverflow",
+    "Code",
+    "Reference"
+  ],
   "activationCommands": {
     "atom-workspace": "source-def:fetch"
   },
